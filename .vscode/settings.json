@@ -1,0 +1,12 @@
+{
+    "workbench.colorCustomizations": {
+        "[Snazzy Operator]": {
+            "editorBracketHighlight.foreground1": "#fc78aa",
+            "editorBracketHighlight.foreground2": "#78a0f7",
+            "editorBracketHighlight.foreground3": "#e2f881"
+        },
+        "activityBar.background": "#0A323D",
+        "titleBar.activeBackground": "#0E4655",
+        "titleBar.activeForeground": "#F6FCFD"
+    }
+}

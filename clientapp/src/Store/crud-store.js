@@ -67,6 +67,27 @@ const crudReducer = (state = initialState, action) => {
       fullname: action.value,
     };
   }
+  if (action.type === "edit") {
+    console.log(action.value);
+    return {
+      ...state,
+      fullname: action.value.fullname,
+      usermail: action.value.email,
+      userphone: action.value.phone,
+      usergender: action.value.gender,
+      userpassword: "",
+    };
+  }
+  if (action.type === "editinfosubmitted") {
+    return {
+      ...state,
+      fullname: "",
+      usermail: "",
+      userphone: "",
+      usergender: "",
+      userpassword: "",
+    };
+  }
   return state;
 };
 

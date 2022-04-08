@@ -4,7 +4,14 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link to="/list">CRUD APP</Link>
+        <Link
+          to="/list"
+          style={{
+            textDecoration: "none",
+          }}
+        >
+          CRUD APP
+        </Link>
         <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
             <Link to="/list" className="nav-link">

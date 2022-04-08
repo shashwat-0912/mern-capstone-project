@@ -39,7 +39,11 @@ const ListUser = (props) => {
               <td>{user.email}</td>
               <td>{user.phone}</td>
               <td>
-                <Link to={`/edit/${user._id}`} className="btn btn-warning m-1">
+                <Link
+                  to={`/edit/${user._id}`}
+                  onClick={() => {}}
+                  className="btn btn-warning m-1"
+                >
                   Edit
                 </Link>
                 <button

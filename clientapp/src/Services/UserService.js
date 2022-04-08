@@ -15,6 +15,10 @@ class UserService {
     console.log(headers);
     return axios.get(USER_BASE_URL, { headers: headers });
   }
+  getUserById(id) {
+    console.log(headers);
+    return axios.get(USER_BASE_URL + "/" + id, { headers: headers });
+  }
   postUser(user) {
     console.log(headers);
     return axios.post(USER_BASE_URL, user, { headers: headers });
